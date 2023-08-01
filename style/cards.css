@@ -1,0 +1,38 @@
+.card-container {
+  width: 900px ;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.card {
+  margin: 3rem;
+  padding: 0;
+  text-align: center;
+}
+
+.card img {
+  object-fit: cover;
+  background-position: bottom;
+  width: 150px;
+  border-radius: 5px;
+  height: 200px;
+  box-shadow: 0 0 8px #555555;
+  transition: transform 0.3s ease-in-out;
+}
+
+.card a {
+  text-decoration: none;
+}
+
+.card img:hover {
+  transform: rotate(360deg)scale(1.2);
+}
+
+.card iframe {
+  object-fit: cover;
+  max-width: 200px;
+  height: 200px;
+  border-radius: 5px;
+}

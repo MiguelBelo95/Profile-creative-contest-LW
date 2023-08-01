@@ -1,0 +1,22 @@
+.anchor {
+  text-decoration: none;
+  padding: 0px 2px;
+  color: rgba(33, 33, 33, 0.7);
+}
+.fab {
+  transition: transform 0.3s ease-in-out;
+}
+.fab:hover {
+  transform: rotate(360deg)scale(1.2);
+}
+
+footer {
+  position: fixed;
+  color: rgba(33, 33, 33, 0.7);
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding-bottom: 1rem;
+}

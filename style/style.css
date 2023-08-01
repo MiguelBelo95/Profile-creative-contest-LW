@@ -1,7 +1,11 @@
+@import url('./containers.css');
+@import url('./cards.css');
+@import url('./footer.css');
+
+
 /* UNIVERSAL STYLE */
 body {
   margin: 0;
-  background-color: #d3d3d3;
 }
 
 
@@ -38,51 +42,18 @@ body {
 }
 
 
-/* CONTAINER, MAIN section */
-
-.container {
-  padding-top: 1rem;
-  /* display: flex; */
-  /* max-width: 1200px;
-  margin: 0 auto;
-  border-radius: 5px;
-  box-shadow: 10px 10px 8px #888888; */
-  background-color: #fff;
-
-}
-
-.flex-container {
-  display: flex;
-  justify-content: space-evenly;
-}
-
 .title {
   text-align: center;
 }
-/* LEFT Container */
-
-.left-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
 
 #myPhoto {
+  margin-top: 1rem;
   width: 300px;
-  height: 400px;
+  height: 300px;
+  object-fit: cover;
+  object-position: top;
 }
 
-/* RIGHT Container */
-
-.right-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.imgs-container {
-  display: flex;
-}
 
 .img-box {
   padding: 1rem;

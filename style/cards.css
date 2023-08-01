@@ -36,3 +36,16 @@
   height: 200px;
   border-radius: 5px;
 }
+
+
+@media only screen and (max-width: 960px) {
+  .card-container {
+    flex-direction: column;
+    width: auto;
+  }
+
+  .card {
+    margin: 1rem;
+  }
+
+}

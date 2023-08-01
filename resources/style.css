@@ -1,0 +1,102 @@
+/* UNIVERSAL STYLE */
+body {
+  margin: 0;
+  background-color: #d3d3d3;
+}
+
+
+.img {
+  border-radius: 5px;
+  box-shadow: 10px 10px 8px #888888;
+}
+
+/* VIDEO Introductory Banner */
+
+.video-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 900px;
+  width: auto;
+  position: relative;
+}
+
+.video-container video {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  object-fit: cover;
+  z-index: 0;
+}
+
+
+.video-container .caption {
+  z-index: 1;
+  position: relative;
+  color: rgba(222, 226, 230, 0.7);
+  text-align: center;
+}
+
+
+/* CONTAINER, MAIN section */
+
+.container {
+  padding-top: 1rem;
+  /* display: flex; */
+  /* max-width: 1200px;
+  margin: 0 auto;
+  border-radius: 5px;
+  box-shadow: 10px 10px 8px #888888; */
+  background-color: #fff;
+
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.title {
+  text-align: center;
+}
+/* LEFT Container */
+
+.left-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#myPhoto {
+  width: 300px;
+  height: 400px;
+}
+
+/* RIGHT Container */
+
+.right-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.imgs-container {
+  display: flex;
+}
+
+.img-box {
+  padding: 1rem;
+  /* align-items: center; */
+}
+
+.img.lx {
+  width: 200px;
+  height: 300px;
+}
+
+
+
+li {
+  display: inline-block;
+  padding: 0px 20px;
+}

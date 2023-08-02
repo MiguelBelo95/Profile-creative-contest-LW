@@ -28,6 +28,10 @@
   align-items: center;
 }
 
+.left-container p {
+  font-weight: 600;
+}
+
 /* RIGHT Container */
 
 .right-container {

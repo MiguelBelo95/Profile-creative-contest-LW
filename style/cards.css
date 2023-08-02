@@ -6,6 +6,10 @@
   flex-wrap: wrap;
 }
 
+.card-container p {
+  font-weight: 600;
+}
+
 .card {
   margin: 3rem;
   padding: 0;
